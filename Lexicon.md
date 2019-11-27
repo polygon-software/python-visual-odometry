@@ -1,0 +1,77 @@
+
+
+**Lecture 2**
+- Camera obscura
+- Pinhole camera
+- Aperture / Aperture Size
+- Diffraction effects
+- Optical Center / Center of Projection
+- Lens / Converging Lens
+- Optical Axis
+- Focal point / Focal length / Focal plane
+- Thin lens equation
+- Blur circle
+- Perspective Effect / Perspective Projection
+- Ames Room
+- Vanishing points / Vanishing lines
+- Depth of Field
+- Field of View
+- Aperture effect
+- Bayer Grid
+- Rolling / Global Shutter
+- Principal Point
+- Pixel Coordinates / Image Plane Coordinates / World Coordinates
+- Homogeneous Coordinates
+- Calibratin Matrix / Matrix of Intrinsic Parameters
+- Matrix of Extrinsic Parameters
+- Projection Matrix
+- Perspective Projection Equation
+- Adimensional
+- Lens distortion
+- Radial distortion / Barrel distortion / Pincushion distortion
+
+**Lecture 3**
+- Pnp
+- P3P
+- Direct Linear Transform (DLT)
+- Omnidirectional cameras
+- 3D Landmarks
+- Dimensionality of Freedom (DoF)
+- Carnot's Theorem
+- Single Value Decomposition (SVD)
+- Degenerate Configurations
+- QR Factorization
+- Skew & Residuals
+- Homographies
+- Collinear
+- Choleski Decomposition
+- Translation Transformation
+- Rigi Transformation 
+- Similarity Transformation 
+- Affine Transformation 
+- Projective Transformation
+- Catodioptric Cameras
+- Fisheye Camreas
+- Dioptric Cameras
+- Surface of revolution of a conic
+
+**Lecture 4**
+- Low-pass Filter / High-pass Filter
+- Image Noise (Salt & Pepper, Impulse, Gaussian)
+- Convolution
+- Kernel / Mask / Filter
+- Cross-correlation
+- Box Filter
+- Aliasing
+- Infinie support (Gaussian Filter)
+- Variance of a Filter
+- Boundary isue (zero padding, warp around, copy edge, reflect across edge)
+- Median Filter
+- Bilateral Filter
+- Prewitt Filter, Sobel filter
+- Image Gradient
+- Derivative Filter
+- Canny edge detection
+- Derivative of Gaussian filter
+- Laplacian of Gaussian
+- 
