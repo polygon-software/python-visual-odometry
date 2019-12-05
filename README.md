@@ -2,6 +2,7 @@
 Python implementation of Visual Odometry algorithms from http://rpg.ifi.uzh.ch/
 
 # Chapter 1 - Overview
+@mhoegger
 [Lecture 1](http://rpg.ifi.uzh.ch/docs/teaching/2019/01_introduction.pdf) Slides 54 - 78
 - Definition of Visual Odometry
 - Differences between VO, VSLAM and SFM
@@ -9,6 +10,7 @@ Python implementation of Visual Odometry algorithms from http://rpg.ifi.uzh.ch/
 - Illustrate building blocks
 
 # Chapter 2 - Optics
+@joelbarmettlerUZH
 [Lecture 2](http://rpg.ifi.uzh.ch/docs/teaching/2019/02_image_formation_1.pdf) Slides 1 - 48
 - What is a blur circle
 - Derive thin lense equation and perform the pinhole approximation
@@ -18,12 +20,14 @@ Python implementation of Visual Odometry algorithms from http://rpg.ifi.uzh.ch/
 - Derive a relation between field of view and focal length
 
 # Chapter 3 - Camera Projection
+@joelbarmettlerUZH
 [Lecture 2](http://rpg.ifi.uzh.ch/docs/teaching/2019/02_image_formation_1.pdf) Slides 48 - 66
 - Perspective projection equation
 - lense distortion 
 - World to camera projection
 
 # Chapter 4 - Camera Calibration
+@mhoegger
 [Lecture 3](http://rpg.ifi.uzh.ch/docs/teaching/2019/03_image_formation_2.pdf) Slides 1 - 64
 - Describe the general PnP problem and derive the behavior of its solutions
 - Explain the working principle of the P3P algorithm
@@ -32,6 +36,7 @@ Python implementation of Visual Odometry algorithms from http://rpg.ifi.uzh.ch/
 - What kind of mirrors ensure central projection
 
 # Chapter 5 - Image Filtering
+@joelbarmettlerUZH
 [Lecture 4](http://rpg.ifi.uzh.ch/docs/teaching/2019/04_filtering.pdf) Slides 1 - 63
 - Explain the differences between convolution and correlation.
 - Explain the differences between a box filter and a Gaussian filter.
@@ -50,6 +55,7 @@ and 𝑦?
 - Explain what non-maxima suppression is and how it is implemented.
 
 # Chapter 6 - Point Feature Detection (Harris & Shi-Tomasi)
+@joelbarmettlerUZH
 [Lecture 5](http://rpg.ifi.uzh.ch/docs/teaching/2019/05_feature_detection_1.pdf) Slides 1 - 65
 - Explain what is template matching and how it is implemented?
 - Explain what are the limitations of template matching? Can you use it to
@@ -72,6 +78,7 @@ changes? Is it invariant to view point changes?
 - - What is the repeatability of the Harris detector after rescaling by a factor of 2?
 
 # Chapter 7 - Point Feature Description & Matching (FAST, SIFT, SURF)
+@joelbarmettlerUZH
 [Lecture 6](http://rpg.ifi.uzh.ch/docs/teaching/2019/06_feature_detection_2.pdf) Slides 1 - 79
 - How does automatic scale selection work?
 - What are the good and the bad properties that a function for automatic scale
@@ -89,6 +96,7 @@ degrees viewpoint change?
 reasoning behind it? Where does the 0.8 factor come from?
 
 # Chapter 8 - Stereovision, Trinagulation, Feature Correspondance, Disparity Map
+@mhoegger
 [Lecture 7](http://rpg.ifi.uzh.ch/docs/teaching/2019/07_multiple_view_geometry_1.pdf) Slides 1 - 74
 - Can you relate Structure from Motion to 3D reconstruction? In what they differ?
 - Can you define disparity in both the simplified and the general case?
@@ -110,6 +118,7 @@ side-moving camera?
 - Is stereo vision the only way of estimating depth information? If not, are you able to list alternative options?
 
 # Chapter 9 - Structure from Motion
+@mhoegger
 [Lecture 8](http://rpg.ifi.uzh.ch/docs/teaching/2019/08_multiple_view_geometry_2.pdf) Slides 1 - 43
 - What's the minimum number of correspondences required for calibrated SFM and why?
 - Are you able to derive the epipolar constraint?
@@ -124,6 +133,7 @@ side-moving camera?
 - Are you able to provide quality metrics for the essential matrix estimation?
 
 # Chapter 10 - RANSAC & Bundle Adjustment
+@mhoegger
 [Lecture 8](http://rpg.ifi.uzh.ch/docs/teaching/2019/08_multiple_view_geometry_2.pdf) Slides 44 - 88
 [Lecture 9](http://rpg.ifi.uzh.ch/docs/teaching/2019/09_multiple_view_geometry_3.pdf) Slides 1 - 7
 - Why do we need RANSAC?
@@ -135,7 +145,9 @@ to estimate the model?
 - How can we reduce the number of RANSAC iterations for the SFM problem?
 
 # Chapter 11 - Visual Odometry / Visual SLAM
+@mhoegger
 [Lecture 9](http://rpg.ifi.uzh.ch/docs/teaching/2019/09_multiple_view_geometry_3.pdf) Slides 8 - 61
+[Lecture 10](http://rpg.ifi.uzh.ch/docs/teaching/2019/10_multiple_view_geometry_4.pdf) Slides 1 - 29
 - Are you able to define Bundle Adjustment (via mathematical expression and
 illustration)?
 - Are you able to describe hierarchical and sequential SFM for monocular VO?
@@ -145,15 +157,13 @@ illustration)?
 algorithms?
 - Are you able to describe the differences between feature-based methods and
 direct methods?
-
-# Chapter 11 - Visual Odometry / Visual SLAM
-[Lecture 10](http://rpg.ifi.uzh.ch/docs/teaching/2019/10_multiple_view_geometry_4.pdf) Slides 1 - 71
 - How do we benchmark VO/SLAM algorithms?
 - Along which axes can we evaluate them?
 - Benchmarking accuracy: Can we use the end pose error? What are ATE and RTE?
 - How can we quantify Efficiency? And Robustness?
 
 # Chapter 12 - Feature Trackings
+@joelbarmettlerUZH
 [Lecture 11](http://rpg.ifi.uzh.ch/docs/teaching/2019/11_tracking.pdf) Slides 1 - 76
 - Are you able to illustrate tracking with block matching?
 - Are you able to explain the underlying assumptions behind differential methods,
@@ -172,6 +182,7 @@ that used for point tracking?
 - Can you illustrate alternative tracking procedures using point features?
 
 # Chapter 13 - Dense 3D Reconstruction
+@joelbarmettlerUZH
 [Lecture 12a](http://rpg.ifi.uzh.ch/docs/teaching/2019/12a_3D_reconstruction.pdf) Slides 1 - 47
 - Are you able to describe the multi-view stereo working principle?
 (aggregated photometric error)
@@ -187,6 +198,7 @@ lambda is 0? And if lambda is too big?
 - What are the advantages of GPUs?
 
 # Chapter 14 - Place Recognition
+@mhoegger
 [Lecture 12b](http://rpg.ifi.uzh.ch/docs/teaching/2019/12b_recognition.pdf) Slides 1 - 51
 - What is an inverted file index?
 - What is a visual word?
@@ -197,4 +209,5 @@ lambda is 0? And if lambda is too big?
 solutions have been proposed?
 
 # Chapter 15 - Deep Learning
+@None
 [Lecture 12c](http://rpg.ifi.uzh.ch/docs/teaching/2019/12c_Deep_Learning_Tutorial.pdf) Slides 1 - 71
