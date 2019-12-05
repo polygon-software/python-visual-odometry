@@ -72,7 +72,7 @@ optimisation methods. The the basic workflow of Vo is:
 ![feature detection](./img/chapter_1/feature_detection.png)
 
 ![feature matching](./img/chapter_1/feature_matching.png)
-0.
+
 ![feature matching](./img/chapter_1/motion_estimation.png)
 
 
