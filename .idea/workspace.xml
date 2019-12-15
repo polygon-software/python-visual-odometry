@@ -132,10 +132,29 @@
               <item name="PyVisualOdometry" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PyVisualOdometry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyVisualOdometry" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyVisualOdometry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyVisualOdometry" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyVisualOdometry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyVisualOdometry" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_8" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
