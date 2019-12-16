@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2454e1a-ecf2-4a16-ad55-dcdf66090a1e" name="Default Changelist" comment="" />
+    <list default="true" id="e2454e1a-ecf2-4a16-ad55-dcdf66090a1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,10 +32,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2552" />
+    <option name="x" value="2566" />
     <option name="y" value="221" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="width" value="1932" />
+    <option name="height" value="1062" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -43,6 +45,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,7 +80,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -117,6 +119,7 @@
       <workItem from="1576024872134" duration="67000" />
       <workItem from="1576264666197" duration="68000" />
       <workItem from="1576445091203" duration="57000" />
+      <workItem from="1576447291566" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="Added image resources">
       <created>1575404961209</created>
@@ -251,16 +254,24 @@
       <option name="project" value="LOCAL" />
       <updated>1576445112059</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Commented on code">
+      <created>1576447302897</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1576447302897</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16512000" />
+    <option name="totallyTimeSpent" value="17125000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1456" extended-state="6" />
+    <frame x="2552" y="221" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1554054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21002132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -305,7 +316,8 @@
     <MESSAGE value="First draft of &quot;SIFT Detector&quot; code, comments and docstrings are missing, code is working" />
     <MESSAGE value="Finished improperly code for SIFT Matching, non-commented and bad performance" />
     <MESSAGE value="New Matching algorithm for SIFT" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Matching algorithm for SIFT" />
+    <MESSAGE value="Commented on code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented on code" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Chapter 3 - Camera Projection.ipynb">
