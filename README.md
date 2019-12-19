@@ -228,7 +228,7 @@ fusions?
 - How can we use non-linear optimization-based approaches to solve for visual
 inertial fusion?
 
-# Chapter 17 - Visual inertial fusion
+# Chapter 17 - Event based vision
 @joelbarmettlerUZH
 [Lecture 14](http://rpg.ifi.uzh.ch/docs/teaching/2019/14_event_based_vision.pdf) Slides 1 - 72
 - What is a DVS and how does it work?
