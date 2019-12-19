@@ -211,3 +211,33 @@ solutions have been proposed?
 # Chapter 15 - Deep Learning
 @None
 [Lecture 12c](http://rpg.ifi.uzh.ch/docs/teaching/2019/12c_Deep_Learning_Tutorial.pdf) Slides 1 - 71
+
+# Chapter 16 - Visual inertial fusion
+@mhoegger
+[Lecture 13](http://rpg.ifi.uzh.ch/docs/teaching/2019/13_visual_inertial_fusion.pdf) Slides 1 - 50
+- Why is it recommended to use an IMU for Visual Odometry?
+- Why not just an IMU?
+- How does a MEMS IMU work?
+- What is the drift of an industrial IMU?
+- What is the IMU measurement model?
+- What causes the bias in an IMU?
+- How do we model the bias?
+- How do we integrate the acceleration to get the position formula?
+- What is the definition of loosely coupled and tightly coupled visual inertial
+fusions?
+- How can we use non-linear optimization-based approaches to solve for visual
+inertial fusion?
+
+# Chapter 17 - Visual inertial fusion
+@joelbarmettlerUZH
+[Lecture 14](http://rpg.ifi.uzh.ch/docs/teaching/2019/14_event_based_vision.pdf) Slides 1 - 72
+- What is a DVS and how does it work?
+- What are its pros and cons vs. standard cameras?
+- Can we apply standard camera calibration techniques?
+- How can we compute optical flow with a DVS?
+- Could you intuitively explain why we can reconstruct the intensity?
+- What is the generative model of a DVS and how to derive it?
+- What is a DAVIS sensor?
+- What is the focus maximization framework and how does it work? What is its
+advantage compared with the generative model?
+- How can we get color events?
