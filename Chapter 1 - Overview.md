@@ -16,7 +16,7 @@ First of all since VO is based on image input, a sufficient illumination is need
 produced. Next up for deriving the motion of a vehicle a large portion of the image should originate from a static 
 scenery. The motion is constructed by looking at the difference of subsequent images, therefore the images should 
 contain enough texture so that the object on the images can be match to each other. Obviously there have to be a 
-certain overlap in consecutive frames so the the relation between then is not lost.
+certain overlap in consecutive frames so the the relation between them is not lost.
 
 ## History of Visual Odometry
 
